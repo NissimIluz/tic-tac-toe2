@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .block {
+             display: block;
+             width: 100%;
+             border: none;
+             background-color: #4CAF50;
+             padding: 28px 28px;
+             font-size: 16px;
+             cursor: pointer;
+             text-align: center;
+} </style>
+    <title>Gmae</title>
+</head>
+<body>
+       <center>
+        <h1 > Tic-tac-toe
+
+        </h1>
+    </center>
+    <script type="text/javascript" src="app.js"> </script>
+    <div id="main" align="center"></div>
+          <script type="text/javascript">
+              document.getElementById("main").innerHTML = start();
+          </script>
+    <div align="center">
+    <p>Select table size.</p>
+    <input type="number" id="mySelect" onchange="resize()" value="3">
+<p id="demo"></p>
+    </div>
+</body>
+</html>
